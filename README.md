@@ -19,7 +19,8 @@ INSTRUCTIONS
    Service 2: Efficient Frontier (Gives recommendations for a given portfolio)
    Service 3: Service Yellow Pages (Allows admins to control which services are available to users)
 
-Install Python Dependencies:
+### Install ###
+Python Dependencies:
 $ pip install flask
 $ pip install matplotlib
 $ pip install numpy
