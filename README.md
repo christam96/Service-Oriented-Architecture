@@ -19,7 +19,7 @@ Further instructions to start ngrok can be found here: https://dashboard.ngrok.c
 
 4. Deploy the web application and back end components by performing the commands detailed in the DEPLOYMENT section below.
 
-5. Run both python scripts (historic_prices.py and efficient_frontier.py). Make sure that the ports specified at the bottom of each script correspond to the port on which ngrok is running on.
+5. Run both python scripts (historic_prices.py and EfficientFrontier.py). Make sure that the ports specified at the bottom of each script correspond to the port on which ngrok is running on.
 
 6. Run the front end components (found here: https://github.com/Fadyazmy/cs4471).
 
