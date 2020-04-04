@@ -34,22 +34,29 @@ Further instructions to start ngrok can be found here: https://dashboard.ngrok.c
 
 ### Install ###
 Python Dependencies:
+```
 $ pip install flask
 $ pip install matplotlib
 $ pip install numpy
 $ pip install pandas
 $ pip install yfinance
 $ pip install firebase
+```
 
 Install NPM Dependencies:
+```
 $ npm i
-
+```
 
 ### DEPLOYMENT ###
 Host Back End Endpoint:
+```
 $ python historic_prices.py
 $ python efficient_frontier.py
+```
 
 Deploy Front End:
+```
 $ npm build
 $ firebase deploy
+```
