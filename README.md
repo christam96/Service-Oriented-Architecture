@@ -54,9 +54,3 @@ Host Back End Endpoint:
 $ python historic_prices.py
 $ python efficient_frontier.py
 ```
-
-Deploy Front End:
-```
-$ npm build
-$ firebase deploy
-```
