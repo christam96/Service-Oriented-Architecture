@@ -6,7 +6,7 @@ INSTRUCTIONS
 ############
 
 1. Clone the repo
-2. Install necessary dependencies by performing the commands detailed in the INSTALLS section below.
+2. Install necessary dependencies by performing the commands detailed in the INSTALL section below.
 3. In it you will find ngrok.exe, an application to access our website. Run two instances of ngrok and note the ports on which you run them. For example, you can run these with:
 ```
 $ ngrok http 8000 
@@ -32,7 +32,7 @@ Further instructions to start ngrok can be found here: https://dashboard.ngrok.c
    Service 2: Efficient Frontier (Gives recommendations for a given portfolio)
    Service 3: Service Yellow Pages (Allows admins to control which services are available to users)
 
-### Install ###
+### INSTALL ###
 Python Dependencies:
 ```
 $ pip install flask
