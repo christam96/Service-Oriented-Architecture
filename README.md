@@ -43,11 +43,6 @@ $ pip install yfinance
 $ pip install firebase
 ```
 
-Install NPM Dependencies:
-```
-$ npm i
-```
-
 ### DEPLOYMENT ###
 Host Back End Endpoint:
 ```
