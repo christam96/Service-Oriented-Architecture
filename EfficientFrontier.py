@@ -1,4 +1,3 @@
-
 # import needed modules
 import yfinance as yf
 from pandas_datareader import data as pdr
@@ -23,6 +22,7 @@ import datetime as dt
 from flask import Flask
 from flask import request
 from flask import Response
+from flask_cors import CORS, cross_origin
 
 # Imports for Firebase
 import firebase_admin
@@ -32,7 +32,7 @@ from firebase_admin import firestore
 '''
 Firebase Setup
 '''
-cred = credentials.Certificate(r'C:\Users\chris\Desktop\CS4471\SOA\cs4471-group5-firebase-adminsdk-cbxeo-921f4626c0.json')
+cred = credentials.Certificate(r'cs4471-group5-firebase-adminsdk-cbxeo-10cf291b10.json')
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
@@ -40,7 +40,8 @@ db = firestore.client()
 Flask API Setup
 '''
 app = Flask(__name__)
-
+CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 ticker_list = []
 quantity_list = []
@@ -177,6 +178,7 @@ def create_new_allocation(list_of_weights, portfolio_value):
     return new_allocation
 
 @app.route('/users', methods = ['GET', 'POST'])
+@cross_origin()
 def user():
     if request.method == 'GET':
         """return the information for <user_id>"""
