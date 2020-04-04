@@ -7,7 +7,15 @@ INSTRUCTIONS
 
 1. Clone the repo
 2. Install necessary dependencies by performing the commands detailed in the INSTALLS section below.
-3. In it you will find ngrok.exe, an application to access our website. Run two instances of ngrok and note the ports on which you run them. Further instructions to start ngrok can be found here: https://dashboard.ngrok.com/get-started.
+3. In it you will find ngrok.exe, an application to access our website. Run two instances of ngrok and note the ports on which you run them. For example, you can run these with:
+```
+$ ngrok http 8000 
+```
+and 
+```
+$ ngrok http 5000
+```
+Further instructions to start ngrok can be found here: https://dashboard.ngrok.com/get-started.
 4. Deploy the web application and back end components by performing the commands detailed in the DEPLOYMENT section below.
 5. Run both python scripts (historic_prices.py and efficient_frontier.py). Make sure that the ports specified at the bottom of each script correspond to the port on which ngrok is running on.
 6. Run the front end components (found here: https://github.com/Fadyazmy/cs4471).
