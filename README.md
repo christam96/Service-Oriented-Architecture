@@ -16,12 +16,17 @@ and
 $ ngrok http 5000
 ```
 Further instructions to start ngrok can be found here: https://dashboard.ngrok.com/get-started.
+
 4. Deploy the web application and back end components by performing the commands detailed in the DEPLOYMENT section below.
+
 5. Run both python scripts (historic_prices.py and efficient_frontier.py). Make sure that the ports specified at the bottom of each script correspond to the port on which ngrok is running on.
+
 6. Run the front end components (found here: https://github.com/Fadyazmy/cs4471).
+
 7. Sign in. You can use this account, for example:
    Email: test@test.com
    Password: 123456
+
 8. Play around with our services. To make sure you have full access to ALL our services, navigate to the User Profile page and set your name to Admin. This will give you full access to all services.
    Service 1: Stock Lookup (Displays historic prices for a given stock)
    Service 2: Efficient Frontier (Gives recommendations for a given portfolio)
