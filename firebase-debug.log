@@ -1,0 +1,49 @@
+[debug] [2020-04-04T01:03:25.140Z] ----------------------------------------------------------------------
+[debug] [2020-04-04T01:03:25.142Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\chris\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-04-04T01:03:25.143Z] CLI Version:   8.0.1
+[debug] [2020-04-04T01:03:25.143Z] Platform:      win32
+[debug] [2020-04-04T01:03:25.143Z] Node Version:  v10.16.0
+[debug] [2020-04-04T01:03:25.144Z] Time:          Fri Apr 03 2020 21:03:25 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-04-04T01:03:25.145Z] ----------------------------------------------------------------------
+[debug] [2020-04-04T01:03:25.145Z] 
+[debug] [2020-04-04T01:03:25.160Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-04T01:03:25.162Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\users\chris\Desktop\cs4471\soa_python_scripts
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-04-04T01:04:06.955Z] ----------------------------------------------------------------------
+[debug] [2020-04-04T01:04:06.959Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\chris\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-04-04T01:04:06.960Z] CLI Version:   8.0.1
+[debug] [2020-04-04T01:04:06.960Z] Platform:      win32
+[debug] [2020-04-04T01:04:06.961Z] Node Version:  v10.16.0
+[debug] [2020-04-04T01:04:06.963Z] Time:          Fri Apr 03 2020 21:04:06 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-04-04T01:04:06.963Z] ----------------------------------------------------------------------
+[debug] [2020-04-04T01:04:06.963Z] 
+[debug] [2020-04-04T01:04:06.994Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-04T01:04:06.996Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\users\chris\Desktop\cs4471\soa_python_scripts
+

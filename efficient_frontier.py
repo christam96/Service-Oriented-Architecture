@@ -196,31 +196,35 @@ def user():
         print('Quantity list', quantity_list)
 
         weights_list = eff_frontier(ticker_list)
-        portolio_val = current_portfolio_value(ticker_list, quantity_list)
-        new_allocation = create_new_allocation(weights_list, portolio_val)
-        old_allocation = get_old_allocation(ticker_list, quantity_list)
+        # portolio_val = current_portfolio_value(ticker_list, quantity_list)
+        # new_allocation = create_new_allocation(weights_list, portolio_val)
+        # old_allocation = get_old_allocation(ticker_list, quantity_list)
 
-        print('PRESENTING NEW PORTFOLIO ALLOCATION: ', new_allocation)
-        difference = []
-        for i in range(len(old_allocation)):
-            if weights_list[i] > old_allocation[i]:
-                difference.append(weights_list[i] - old_allocation[i])
-            if old_allocation[i] > weights_list[i]:
-                difference.append(old_allocation[i] - weights_list[i])
-        print(difference)
+        # print('PRESENTING NEW PORTFOLIO ALLOCATION: ', new_allocation)
+        # difference = []
+        # for i in range(len(old_allocation)):
+        #     if weights_list[i] > old_allocation[i]:
+        #         difference.append(weights_list[i] - old_allocation[i])
+        #     if old_allocation[i] > weights_list[i]:
+        #         difference.append(old_allocation[i] - weights_list[i])
+        # print(difference)
+
+        print('Length of ticker list: ', len(ticker_list))
 
         recommend_buy = []
         recommend_sell = []
-        for i in range(len(difference)):
-            if difference[i] > 0:
-                recommend_buy.append(ticker_list[i])
-            else:
-                recommend_sell.append(ticker_list[i])
+        # for i in range(len(difference)):
+        #     if difference[i] > 0:
+        #         recommend_buy.append(ticker_list[i])
+        #     else:
+        #         recommend_sell.append(ticker_list[i])
 
-        print('RECOMMEND BUY: ', recommend_buy)
-        print('RECOMMEND SELL: ', recommend_sell)
-
+        from random import randrange
         temp_list = ['AAMZ', 'MSFT', 'TSLA', 'NFLX']
+        test_str = []
+        for i in range(len(ticker_list)):
+            test_str.append(randrange(100))
+            recommend_buy.append(ticker_list[i])
         # w2 = []
         # for i in range(len(weights_list)):
         #     num = 0
@@ -228,9 +232,9 @@ def user():
         #         num = j
         #     w2.append(num)
 
-        test_str = ''
-        for i in range(len(difference)):
-            test_str += str(difference[i][0])
+        # test_str = ''
+        # for i in range(len(difference)):
+        #     test_str += str(difference[i][0])
 
         # counter = 1
         # arr = []
@@ -251,7 +255,7 @@ def user():
             u'sell': recommend_sell,
             u'buy': recommend_buy,
             u'exec': False,
-            u'price': response,
+            u'price': test_str,
             # u'stock': temp_list, # <<---
             # u'uid': user_id,
         })
