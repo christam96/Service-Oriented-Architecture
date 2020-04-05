@@ -1,4 +1,4 @@
-# service-oriented-architecture
+# Service-Oriented-Architecture
 
 ### INSTRUCTIONS ###
 
