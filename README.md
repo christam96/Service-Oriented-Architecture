@@ -1,7 +1,6 @@
 # service-oriented-architecture
-###
-INSTRUCTIONS
-###
+
+### INSTRUCTIONS ###
 
 1. Clone the repo
 2. Install necessary dependencies by performing the commands detailed in the INSTALL section below.
